@@ -1,0 +1,27 @@
+{
+  "name": "Restaurant_page",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VVS232/Restaurant_page.git"
+  },
+  "keywords": [],
+  "author": "Vladyslav <teenwolf23299@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VVS232/Restaurant_page/issues"
+  },
+  "homepage": "https://github.com/VVS232/Restaurant_page#readme",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
