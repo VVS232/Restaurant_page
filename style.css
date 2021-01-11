@@ -139,7 +139,9 @@ nav{
     font-size: calc(17px + .5vw);
     min-width:170px;
 }
-
+#map{
+    max-width:100%;
+}
 @media(max-width:635px){
     html{
         overflow-x: hidden;
@@ -175,4 +177,9 @@ nav{
 
       }
       
+}
+@media (max-width:1000px){
+    #contacts{
+        width:90%;
+    }
 }
