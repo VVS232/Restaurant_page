@@ -37,6 +37,11 @@ $("#nav1").on("click", createMain)
 $("#nav2").on("click", createMenu)
 $("#nav3").on("click", createAbout)
 $("#nav4").on("click", createContacts)
+$(".nav-el").on("click",()=>{
+    if($(".icon").css("display")!="none"){
+        $nav.css("display","none")
+        }
+})
 $(".icon").on("click",()=>{
     if ($nav.css("display") === "block") {
   $nav.css("display","none")
@@ -45,5 +50,8 @@ $(".icon").on("click",()=>{
 }
 })
 $("#samurai-img").on("click",createMain)
+
+
+
 }
 createMain();
