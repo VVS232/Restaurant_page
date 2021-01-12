@@ -40,7 +40,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin:auto auto;
-}
+column-gap: 90px;}
 .menu-el-img{
     margin-top: 40px;
     width:450px;
@@ -180,6 +180,20 @@ nav{
 }
 @media (max-width:1000px){
     #contacts{
+        width:90%;
+    }
+    #menu{
+        grid-template-columns: 1fr;
+    }
+    .menu-el-img{
+width:95%;
+    }
+    #col2{
+        margin: 0;
+    }
+}
+@media(max-width:1460px){
+    #menu{
         width:90%;
     }
 }

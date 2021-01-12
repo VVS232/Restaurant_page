@@ -54,6 +54,10 @@ function addListeners(img, name, ingred){
         name.slideToggle();
         ingred.slideToggle();
     })
+    img.on("touchend",()=>{
+        name.slideToggle();
+        ingred.slideToggle();
+    })
 }
 class food{
     
