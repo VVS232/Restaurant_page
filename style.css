@@ -53,6 +53,7 @@ nav {
   margin-top: 40px;
   width: 450px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .menu-el-img-blur {
   filter: blur(4px);
