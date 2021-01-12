@@ -123,7 +123,7 @@ nav {
   margin: 0 auto;
   /*width:80vw;*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/sushi-i-rolly-v-chyom-otlichie.jpeg");
+    url("img/sushi-i-rolly-v-chyom-otlichie.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
