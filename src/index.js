@@ -44,6 +44,6 @@ $(".icon").on("click",()=>{
     $nav.css("display","block")
 }
 })
-
+$("#samurai-img").on("click",createMain)
 }
 createMain();

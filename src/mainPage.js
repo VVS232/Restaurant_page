@@ -1,5 +1,5 @@
 "use strict";
-
+import {createMenu} from "./menu"
 import $ from "jquery";
 
 function createMain(){
@@ -13,6 +13,6 @@ function createMain(){
     $home.append($homeImg.append($homeText))
 
     $("main").append($home);
-
+  $("#toMenu").on("click", createMenu)
 }
 export default createMain;

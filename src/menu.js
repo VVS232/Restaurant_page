@@ -64,7 +64,7 @@ class food{
     constructor(imgLink, foodName, ingreds){
         this.imgLink=imgLink;
         this.foodName=foodName;
-        this.ingreds=ingreds;
+        this.ingreds=ingreds.split(/[ ,]+/).join(', ');
     }
 }
 
