@@ -7,6 +7,8 @@ body{
 }
 #samurai-img{
     width:90px;
+    cursor: pointer;
+
 }
 header{
     overflow: hidden;
@@ -19,11 +21,21 @@ nav{
     display: flex;
     flex-grow: 10;
     justify-content: flex-end;
-
 }
 .nav-el{
-    margin-right: 15px;
+    padding-top: 20px;
+
+    margin: 0;
+    padding-right: 7px;
+    padding-left: 7px;
     font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-el:hover{
+    background-color: red;
+    color:white;
+    transition: 0.5s;
 }
 .icon{
     display: none;
@@ -56,23 +68,31 @@ column-gap: 90px;}
 }
 
 .img-text{
-    display: flex;
-    flex-wrap: wrap;
+    padding-left:6px;
+  width:445px;
     position: absolute;
-    bottom:2px;
-    right: 120px;
+    bottom:3px;
+    left: 0px;
     font-size: 30px;
     color:white;
     font-weight: bold;
+    margin:0;
+    font-weight: bold;
+    color: lightyellow;
+    background-color: #4d38387a;
+    border-radius: 3px;
 }
 
 .ingreds{
-    width:90%;
+    width:445px;
+    height:inherit;
     position: absolute;
-    display: flex;
-    flex-wrap:wrap;
-    top: 20px;
-    color:white;
+
+    top: 12px;
+    color: lightyellow;
+    background-color: #493d3daf;
+    border-radius: 3px;
+font-size: 23px;
 }
 
 
@@ -133,11 +153,13 @@ column-gap: 90px;}
 #toMenu{
     width:30%;
     height:70px;
-    background-color: rgba(255, 0, 0, 0.651);
+    background-color: rgba(255, 0, 0, 0.74);
     border-radius: 14px;
     color: black;
     font-size: calc(17px + .5vw);
     min-width:170px;
+    cursor: pointer;
+
 }
 #map{
     max-width:100%;
@@ -154,7 +176,7 @@ column-gap: 90px;}
         z-index: 2;
         width:100%;
         text-align: center;
-        background-color: rgba(255, 127, 127, 0.548);
+        background-color: rgba(245, 51, 51, 0.877);
     }
     .icon {
         color:red;
