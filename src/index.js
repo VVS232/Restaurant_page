@@ -19,7 +19,7 @@ function createHeader(...nav){
     $header.html(`<a  class="icon">
     <i class="fa fa-bars"></i>`);
     const $nav=$("<nav></nav>");
-    $header.append($("<img>").attr({src:"../img/samurai.png",id:"samurai-img",alt:"samurai logo image"}));
+    $header.append($("<img>").attr({src:"/img/samurai.png",id:"samurai-img",alt:"samurai logo image"}));
     $header.append($("<h1></h1>").text("Самурай"));
 
     for (let i =0; i<arguments.length;i++){
