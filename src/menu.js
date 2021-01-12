@@ -24,7 +24,7 @@ function createMenu(){
         $ingreds.slideUp();
         $menuEl.append($img, $imgText,$ingreds);
         $menuEl.appendTo($col1);
-        addListeners($img, $imgText,$ingreds);
+        addListeners($menuEl, $imgText,$ingreds);
 
     }
     for (let i =5; i<10;i++){ //col2
@@ -39,22 +39,26 @@ function createMenu(){
         $ingreds.slideUp();
         $menuEl.append($img, $imgText,$ingreds);
         $menuEl.appendTo($col2);
-        addListeners($img, $imgText,$ingreds);
+        addListeners($menuEl, $imgText,$ingreds);
     }
   
 $("main").append($menu);
 }
 
-function addListeners(img, name, ingred){
-    img.mouseover(()=>{
+function addListeners(menuel, name, ingred){
+
+    menuel.mouseenter(()=>{
+        menuel.find(".menu-el-img").toggleClass("menu-el-img-blur")
         name.slideToggle();
         ingred.slideToggle();
     })
-    img.mouseleave(()=>{
+    menuel.mouseleave(()=>{
+        menuel.find(".menu-el-img").toggleClass("menu-el-img-blur")
         name.slideToggle();
         ingred.slideToggle();
     })
-    img.on("touchend",()=>{
+    menuel.on("touchend",()=>{
+        menuel.find(".menu-el-img").toggleClass("menu-el-img-blur")
         name.slideToggle();
         ingred.slideToggle();
     })
